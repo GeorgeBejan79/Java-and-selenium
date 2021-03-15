@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Second Test Suite">
+    <test name="First Test">
+        <parameter name="username" value="techtorialFromXml"></parameter>
+        <parameter name="password" value="passwordFromXML"></parameter>
+      <classes>
+          <class name="selenium.testng.Parametrization"></class>
+
+
+
+      </classes>
+
+    </test>
+</suite>

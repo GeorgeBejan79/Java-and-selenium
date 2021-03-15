@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Etsy test suite">
+    <test name="etsy search test">
+<parameter name="searchCriteria" value="java programming mug"></parameter>
+        <classes>
+            <class name="selenium.testng.EtsySearch"></class>
+
+
+
+        </classes>
+
+    </test>
+</suite>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-20T13:32:39 CST" name="First Test Suite" finished-at="2021-02-20T13:32:46 CST" duration-ms="7140">
+    <groups>
+    </groups>
+    <test started-at="2021-02-20T13:32:39 CST" name="First Test" finished-at="2021-02-20T13:32:46 CST" duration-ms="7140">
+      <class name="selenium.testng.Parametrization">
+        <test-method is-config="true" signature="setup()[pri:0, instance:selenium.testng.Parametrization@166fa74d]" started-at="2021-02-20T13:32:39 CST" name="setup" finished-at="2021-02-20T13:32:41 CST" duration-ms="2098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="parametersTest(java.lang.String, java.lang.String)[pri:0, instance:selenium.testng.Parametrization@166fa74d]" started-at="2021-02-20T13:32:41 CST" name="parametersTest" finished-at="2021-02-20T13:32:46 CST" duration-ms="5005" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[techtorialFromXml]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[passwordFromXML]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parametersTest -->
+      </class> <!-- selenium.testng.Parametrization -->
+    </test> <!-- First Test -->
+  </suite> <!-- First Test Suite -->
+</testng-results>

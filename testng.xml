@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="First Test Suite" paralel="methods" thread-count="3">
+    <parameter name="username" value="wrongEmail"></parameter>
+    <parameter name="password" value="invalidPassword"></parameter>
+    <parameter name="email" value="sfdgds.com"></parameter>
+    <parameter name="gender" value="F"></parameter>
+    <test name="First Test">
+      <classes>
+          <class name="selenium.testng.Parametrization"></class>
+      </classes>
+    </test>
+    <test name="Second Test">
+        <classes>
+            <class name="selenium.testng.Parametrization2"></class>
+        </classes>
+
+    </test>
+</suite>

@@ -1,0 +1,5 @@
+George Bejan
+Techtorial
+Chicago
+Illinois
+This is text file for exception practice.
