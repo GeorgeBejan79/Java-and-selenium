@@ -10,8 +10,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class SeleniumIntro {
     @Test
     public void test1(){
-        System.setProperty("webdriver.chrome.driver","resource/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","resources/chromedriver.exe");
+        //webdriver is an interface and chromeDriver is class--> polymorphism
         WebDriver driver= new ChromeDriver();
+
         driver.get("https://google.com");
         WebElement searchField = driver.findElement(By.xpath("//input[@name='q']"));
         searchField.sendKeys("Selenium cookbook"+ Keys.ENTER);
