@@ -1,4 +1,4 @@
-package test.java.java_class.Maps.java_class.Blocks.selenium.locators;
+package test.java.java_class.Blocks.selenium.locators;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.Assert;

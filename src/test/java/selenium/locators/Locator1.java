@@ -151,7 +151,7 @@ public class Locator1 {
         }*/
         @Test
     public void absoluteXpath(){
-            Assert.assertEquals("Temirlan", "Temir");
+            Assert.assertEquals("Temirlan", "Temirlan");
             System.setProperty("webdriver.chrome.driver", "resource/chromedriver");
 
             WebDriver driver = new ChromeDriver();

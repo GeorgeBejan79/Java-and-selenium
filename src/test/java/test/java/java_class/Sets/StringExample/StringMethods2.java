@@ -12,7 +12,7 @@ public class StringMethods2 {
         System.out.println(device.charAt(5));// throws the exeption since index number is bigger
         System.out.println(device.indexOf("m"));
         System.out.println(device.indexOf(" "));
-        System.out.println(device.indexOf("rop")); //it will return index number for the frst matching element
+        System.out.println(device.indexOf("rop")); //it will return index number for the first matching element
         System.out.println(device.indexOf("k"));// if there is no matching letter it will return -1
         System.out.println(device.indexOf("ono"));// -1 --> it should matching exactly all the letters
         System.out.println(device.indexOf("o")); // index of first matching 'o'
