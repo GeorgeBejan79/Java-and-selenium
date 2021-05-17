@@ -9,14 +9,14 @@ public class LinkedHashSetPractice {
         set.add("Mango");
         set.add("Kiwi");
         set.add(null);
-            System.out.println(set);
+            System.out.println(set+" no order");
 
         linkedSet.add("Banana");
         linkedSet.add("Grapefruit");
         linkedSet.add("Mango");  //// adds elements to the linkedSets
         linkedSet.add("Kiwi");
         linkedSet.add(null);
-            System.out.println(linkedSet);
+            System.out.println(linkedSet+" maintain the insertion order");
 
         TreeSet<String> treeSet = new TreeSet<>();
 
@@ -26,7 +26,7 @@ public class LinkedHashSetPractice {
         treeSet.add("Kiwi");
         treeSet.add("Apple");
         treeSet.add("Strawberry");
-        //treeSet.add(null);  -->treeSet doesn't alow null values
+        //treeSet.add(null);  -->treeSet doesn't allow null values
 
             System.out.println(treeSet);
             System.out.println(treeSet.descendingSet());

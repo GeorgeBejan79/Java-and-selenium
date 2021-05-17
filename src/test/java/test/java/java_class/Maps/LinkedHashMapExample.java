@@ -38,6 +38,7 @@ public class LinkedHashMapExample {
         System.out.println(map); // adds the in order that they were inserted
         System.out.println(map1);// adds the in random order inserted
         System.out.println(map2);// adds the in alphabetical order that they were inserted
+        System.out.println(map2.descendingMap());
 
     }
 }

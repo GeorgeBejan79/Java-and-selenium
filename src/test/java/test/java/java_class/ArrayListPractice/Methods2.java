@@ -10,12 +10,12 @@ public class Methods2 {
         animals.add("Dog");
         //animls.set(4, "Bird")--> it will trow an exeption since we don't have index of 4
             System.out.println(animals);
-            System.out.println(animals.isEmpty());
-            System.out.println(animals.contains("Lion"));//false
+            System.out.println(animals.isEmpty());// false
+            System.out.println(animals.contains("Lion"));//true
             System.out.println(animals.contains("Dog"));//true
             System.out.println(animals.contains("cat")); //false bc java is case sensitive
 
-        //animals.clear();// it will remove all the elements from the arrayList
+        animals.clear();// it will remove all the elements from the arrayList
         System.out.println(animals.isEmpty());//true
 
         ArrayList<String> animals1 =new ArrayList<>();

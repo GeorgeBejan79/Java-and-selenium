@@ -1,4 +1,4 @@
-package test.java.java_class.Maps;
+package selenium.testng;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;

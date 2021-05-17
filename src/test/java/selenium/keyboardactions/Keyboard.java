@@ -17,12 +17,11 @@ public class Keyboard {
         driver.get("https://www.google.com/");
         WebElement searchField = driver.findElement(By.name("q"));
         Actions actions = new Actions(driver);
-        actions.keyDown(Keys.SHIFT).sendKeys(searchField, "t").
-                keyUp(Keys.SHIFT).
+        actions.keyDown(Keys.SHIFT).// press shift in order to write with caps
+                sendKeys(searchField, "t"). //types t
+                keyUp(Keys.SHIFT).// shift again for lower case
                 sendKeys(searchField, "echtorial academy" + Keys.ENTER).perform();
-
     }
-
     @Test
     public void copyPaste() {
         WebDriverManager.chromedriver().setup();
@@ -30,16 +29,17 @@ public class Keyboard {
         driver.get("https://www.amazon.com/");
         WebElement searchBar = driver.findElement(By.id("twotabsearchtextbox"));
         Actions actions = new Actions(driver);
-        actions.sendKeys(searchBar, "Java").keyDown(Keys.COMMAND).
+        actions.sendKeys(searchBar, "java").keyDown(Keys.CONTROL).
                 sendKeys("a").
+                //copy
                 sendKeys("c").
+                //paste
                 sendKeys("v").
+                //paste
                 sendKeys("v").
-                sendKeys("a").
-                sendKeys("x").
-                keyUp(Keys.COMMAND).perform();
+                //relise Control button on keyboard
+                keyUp(Keys.CONTROL).perform();
     }
-
     @Test
     public void copyPaste1() {
         WebDriverManager.chromedriver().setup();
@@ -47,10 +47,15 @@ public class Keyboard {
         driver.get("https://www.amazon.com/");
         WebElement searchBar = driver.findElement(By.id("twotabsearchtextbox"));
         Actions actions = new Actions(driver);
-        actions.sendKeys(searchBar,"iphone 12").keyDown(Keys.COMMAND)
-                .sendKeys("a").sendKeys("x").sendKeys("v")
-                .sendKeys("v").sendKeys("v")
-                .keyUp(Keys.COMMAND).perform();
+        actions.sendKeys(searchBar,"iphone 12").keyDown(Keys.CONTROL)
+                .sendKeys("a").
+                sendKeys("x").
+                sendKeys("v").
+                sendKeys("v").
+                sendKeys("v").
+                keyUp(Keys.CONTROL)
+                .sendKeys(Keys.ENTER)
 
+                .perform();
     }
 }

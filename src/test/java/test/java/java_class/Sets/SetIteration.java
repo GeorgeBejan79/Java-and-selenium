@@ -22,7 +22,7 @@ public class SetIteration {
             String animal= animals2.next();
             if(animal.equals("Cat")){
                 System.out.println("Animals2 collection has Cat inside of it");
-                System.out.println("Cat was not found");
+                System.out.println("Cat was found");
             }
             else{
                 System.out.println("Cat was not found");

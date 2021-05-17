@@ -22,5 +22,6 @@ public class ArrayListSetExample {
         String[] convertedArray;
         String[] lastNamesArray = {"John", "Abba"};
         List<String> list = Arrays.asList(lastNamesArray);     // converts Array to the List
+        System.out.println(list+" this is a list");
     }
 }
