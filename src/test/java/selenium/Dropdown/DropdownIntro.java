@@ -1,4 +1,5 @@
 package selenium.Dropdown;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.Assert;
 import org.junit.Test;
@@ -7,7 +8,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
+
 import java.util.List;
+
 public class DropdownIntro {
     @Test
     public void test1() {
@@ -46,10 +49,9 @@ public class DropdownIntro {
         driver.get("https://the-internet.herokuapp.com/dropdown");
         WebElement dropdown = driver.findElement(By.id("dropdown"));
         Select dropDownHandler = new Select(dropdown);
-        dropDownHandler.getOptions();
-        List<WebElement> listOfOptions = dropDownHandler.getOptions();
+        List<WebElement> listOfOptions = dropDownHandler.getOptions(); //create a list with options
         for (WebElement option : listOfOptions) {
-            System.out.println(option.getText());
+            System.out.println(option.getText()); // print options in dropdown
         }
     }
 
@@ -62,45 +64,47 @@ public class DropdownIntro {
         Select dropDownHandler = new Select(allDropDown); //pass element to select class
         List<WebElement> allOptions = dropDownHandler.getOptions();// get all options from the dropdown
         System.out.println(allOptions.size());
-
+        int count = 0;
         for (WebElement option : allOptions) {
-            System.out.println(option.getText()); //print all the options
+            System.out.println(count + ". " + option.getText()); //print all the options
+            count++;
         }
     }
 
     @Test
-    public void test() {
+    public void test6() {
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
         driver.get("https://learn.letskodeit.com/p/practice");
         WebElement dropdown = driver.findElement(By.id("carselect"));
         Select dropdownHandler = new Select(dropdown);
         dropdownHandler.selectByVisibleText("Honda");
-        WebElement selectedOption=dropdownHandler.getFirstSelectedOption();
+        WebElement selectedOption = dropdownHandler.getFirstSelectedOption();
         Assert.assertEquals("Honda", selectedOption.getText());
     }
+
     @Test
-    public void test7(){
+    public void test7() {
 
         WebDriverManager.chromedriver().setup();
-        WebDriver driver=new ChromeDriver();
+        WebDriver driver = new ChromeDriver();
         driver.get("https://learn.letskodeit.com/p/practice");
-        WebElement dropdown= driver.findElement(By.id("carselect"));
-        Select dropDownHandler= new Select(dropdown);
+        WebElement dropdown = driver.findElement(By.id("carselect"));
+        Select dropDownHandler = new Select(dropdown);
         dropDownHandler.selectByValue("benz");
-        WebElement firstSelectedOption=dropDownHandler.getFirstSelectedOption();
+        WebElement firstSelectedOption = dropDownHandler.getFirstSelectedOption();
         Assert.assertEquals("Honda", firstSelectedOption.getText());
     }
     @Test
-    public void test8(){
+    public void test8() {
         WebDriverManager.chromedriver().setup();
-        WebDriver driver=new ChromeDriver();
+        WebDriver driver = new ChromeDriver();
         driver.get("https:www.amazon.com");
-        WebElement dropdown= driver.findElement(By.id("searchDropdownBox"));
-        Select dropDownHandler= new Select(dropdown);
+        WebElement dropdown = driver.findElement(By.id("searchDropdownBox"));
+        Select dropDownHandler = new Select(dropdown);
         dropDownHandler.selectByValue("search-alias=instant-video"); // selects prime video from drop down
-        WebElement firstSelectedOtion=dropDownHandler.getFirstSelectedOption(); // is getting option for prime video
-        Assert.assertEquals("Prime Video",firstSelectedOtion.getText()); //checks if those values are equal
+        WebElement firstSelectedOption = dropDownHandler.getFirstSelectedOption(); // is getting option for prime video
+        Assert.assertEquals("Prime Video", firstSelectedOption.getText()); //checks if those values are equal
 
 
     }

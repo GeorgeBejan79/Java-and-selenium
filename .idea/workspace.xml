@@ -23,37 +23,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3988ddba-f132-4b2f-8ec6-37d5d8ed358a" name="Default Changelist" comment="Java and selenium">
-      <change afterPath="$PROJECT_DIR$/src/test/java/InterviewTasks/Collections.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/Dropdown/DropdownIntro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/InterviewTasks/FizBuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/InterviewTasks/FizBuzz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/keyboardactions/Keyboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/keyboardactions/Keyboard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/locators/Locator1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/locators/Locator1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/java/java_class/ArrayListPractice/ArrayListSetExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/java/java_class/ArrayListPractice/ArrayListSetExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/java/java_class/ArrayListPractice/Methods2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/java/java_class/ArrayListPractice/Methods2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/java/java_class/ArrayListPractice/TechStudent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/java/java_class/ArraysPractice/BinarySearchPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/java/java_class/ArraysPractice/BinarySearchPractice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/java/java_class/Maps/HashMapExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/java/java_class/Maps/HashMapExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/java/java_class/Maps/HashMapExample2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/java/java_class/Maps/HashMapExample2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/java/java_class/Maps/LinkedHashMapExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/java/java_class/Maps/LinkedHashMapExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/java/java_class/Maps/TestNGIntro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/testng/TestNGIntro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/java/java_class/Mentoring/HashSetPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/java/java_class/Mentoring/MapEntryPractice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/java/java_class/Sets/LinkedHashSetPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/java/java_class/Sets/LinkedHashSetPractice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/java/java_class/Sets/SetIteration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/java/java_class/Sets/SetIteration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/java/java_class/Sets/TreeSetPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/java/java_class/Sets/TreeSetPractice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/locators/Locator1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/locators/Locator1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/java_class/ArrayListPractice/ArrayListSetExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/java/java_class/ArrayListPractice/ArrayListSetExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/java_class/ArrayListPractice/Methods2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/java/java_class/ArrayListPractice/Methods2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/java_class/ArrayListPractice/TechStudent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/java_class/ArraysPractice/BinarySearchPractice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/java/java_class/ArraysPractice/BinarySearchPractice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/java_class/Maps/HashMapExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/java/java_class/Maps/HashMapExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/java_class/Maps/HashMapExample2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/java/java_class/Maps/HashMapExample2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/java_class/Maps/LinkedHashMapExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/java/java_class/Maps/LinkedHashMapExample.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/java_class/Maps/TestNGIntro.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/java_class/Mentoring/HashSetPractice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/java_class/Sets/LinkedHashSetPractice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/java/java_class/Sets/LinkedHashSetPractice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/java_class/Sets/SetIteration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/java/java_class/Sets/SetIteration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/java_class/Sets/TreeSetPractice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/java/java_class/Sets/TreeSetPractice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/Dropdown/DropdownIntro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/Dropdown/DropdownIntro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/checkboxandradio/Etsy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/checkboxandradio/Etsy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/locators/locateMultipleElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/locators/locateMultipleElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/mouseactions/MouseClick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/mouseactions/MouseClick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/testng/SoftAssertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/testng/SoftAssertion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/testng/TestAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/testng/TestAnnotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/testng/TestNGIntro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/testng/TestNGIntro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/checkboxandradio/Etsy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/checkboxandradio/Etsy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/keyboardactions/Keyboard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/keyboardactions/Keyboard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/testng/TestAnnotation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/testng/TestAnnotation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/testng/TestNGIntro.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/testng/TestNGIntro.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +118,7 @@
       <recent name="C:\Users\gbeja\IdeaProjects\TechtorialB7\src\Constructor" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.locateMultipleElements.getNamesTest">
+  <component name="RunManager" selected="TestNG.GoogleSearch.googleSearchTest">
     <configuration name="Computer" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Constructor.Computer" />
       <module name="TechtorialB7" />
@@ -174,54 +155,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Keyboard.allUppercase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TechtorialB7" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="selenium.keyboardactions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="selenium.keyboardactions" />
-      <option name="MAIN_CLASS_NAME" value="selenium.keyboardactions.Keyboard" />
-      <option name="METHOD_NAME" value="allUppercase" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Keyboard.copyPaste" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TechtorialB7" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="selenium.keyboardactions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="selenium.keyboardactions" />
-      <option name="MAIN_CLASS_NAME" value="selenium.keyboardactions.Keyboard" />
-      <option name="METHOD_NAME" value="copyPaste" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Keyboard.copyPaste1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TechtorialB7" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="selenium.keyboardactions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="selenium.keyboardactions" />
-      <option name="MAIN_CLASS_NAME" value="selenium.keyboardactions.Keyboard" />
-      <option name="METHOD_NAME" value="copyPaste1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LocateMultipleElements.multipleElements" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="TechtorialB7" />
       <extension name="coverage">
@@ -238,34 +171,90 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="locateMultipleElements.getNamesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GoogleSearch.googleSearchTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TechtorialB7" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="selenium.locators.*" />
+          <option name="PATTERN" value="selenium.testng.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="selenium.locators" />
-      <option name="MAIN_CLASS_NAME" value="selenium.locators.locateMultipleElements" />
-      <option name="METHOD_NAME" value="getNamesTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="selenium.testng" />
+      <option name="MAIN_CLASS_NAME" value="selenium.testng.GoogleSearch" />
+      <option name="METHOD_NAME" value="googleSearchTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="locateMultipleElements.multipleElements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SoftAssertion" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TechtorialB7" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="selenium.locators.*" />
+          <option name="PATTERN" value="selenium.testng.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="selenium.locators" />
-      <option name="MAIN_CLASS_NAME" value="selenium.locators.locateMultipleElements" />
-      <option name="METHOD_NAME" value="multipleElements" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="selenium.testng" />
+      <option name="MAIN_CLASS_NAME" value="selenium.testng.SoftAssertion" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SoftAssertion.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TechtorialB7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="selenium.testng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="selenium.testng" />
+      <option name="MAIN_CLASS_NAME" value="selenium.testng.SoftAssertion" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SoftAssertion.test2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TechtorialB7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="selenium.testng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="selenium.testng" />
+      <option name="MAIN_CLASS_NAME" value="selenium.testng.SoftAssertion" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAnnotation" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TechtorialB7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="selenium.testng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="selenium.testng" />
+      <option name="MAIN_CLASS_NAME" value="selenium.testng.TestAnnotation" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -275,19 +264,19 @@
       <item itemvalue="Application.Hw12TskThree" />
       <item itemvalue="JUnit.HartOfTesting.test1" />
       <item itemvalue="JUnit.LocateMultipleElements.multipleElements" />
-      <item itemvalue="JUnit.Keyboard.allUppercase" />
-      <item itemvalue="JUnit.Keyboard.copyPaste" />
-      <item itemvalue="JUnit.Keyboard.copyPaste1" />
-      <item itemvalue="JUnit.locateMultipleElements.multipleElements" />
-      <item itemvalue="JUnit.locateMultipleElements.getNamesTest" />
+      <item itemvalue="TestNG.TestAnnotation" />
+      <item itemvalue="TestNG.SoftAssertion.test1" />
+      <item itemvalue="TestNG.SoftAssertion.test2" />
+      <item itemvalue="TestNG.SoftAssertion" />
+      <item itemvalue="TestNG.GoogleSearch.googleSearchTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.locateMultipleElements.getNamesTest" />
-        <item itemvalue="JUnit.locateMultipleElements.multipleElements" />
-        <item itemvalue="JUnit.Keyboard.copyPaste1" />
-        <item itemvalue="JUnit.Keyboard.copyPaste" />
-        <item itemvalue="JUnit.Keyboard.allUppercase" />
+        <item itemvalue="TestNG.GoogleSearch.googleSearchTest" />
+        <item itemvalue="TestNG.SoftAssertion.test2" />
+        <item itemvalue="TestNG.SoftAssertion" />
+        <item itemvalue="TestNG.SoftAssertion.test1" />
+        <item itemvalue="TestNG.TestAnnotation" />
       </list>
     </recent_temporary>
   </component>
@@ -328,7 +317,21 @@
       <option name="project" value="LOCAL" />
       <updated>1619142127853</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Java and selenium">
+      <created>1621214379034</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1621214379034</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Java and selenium">
+      <created>1621214405713</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1621214405713</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -369,20 +372,12 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="178" y="63" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.824@0.0.1536.824" timestamp="1613338029035" />
-    <state x="450" y="336" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1612717245923">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="450" y="336" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1612717245923" />
     <state x="341" y="282" width="655" height="219" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1620676723572">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="341" y="282" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1620249539953" />
     <state x="2346" y="356" width="433" height="218" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1614529659446" />
     <state x="341" y="282" width="655" height="219" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1620676723572" />
-    <state x="542" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1612405919326">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="542" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1612405919326" />
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1616992961404">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -395,35 +390,35 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="527" y="282" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1613361923356" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1617926751338">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1621453346917">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="706" y="101" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1616339273251" />
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1617926751338" />
-    <state width="1493" height="266" key="GridCell.Tab.0.bottom" timestamp="1621213270660">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1621453346917" />
+    <state width="1493" height="250" key="GridCell.Tab.0.bottom" timestamp="1621644295471">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1621213270660" />
+    <state width="1493" height="250" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1621644295471" />
     <state width="1877" height="266" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1620929210830" />
-    <state width="1493" height="197" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1620739479065" />
-    <state width="1493" height="266" key="GridCell.Tab.0.center" timestamp="1621213270660">
+    <state width="1493" height="64" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1621461391128" />
+    <state width="1493" height="250" key="GridCell.Tab.0.center" timestamp="1621644295470">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1621213270660" />
+    <state width="1493" height="250" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1621644295470" />
     <state width="1877" height="266" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1620929210828" />
-    <state width="1493" height="197" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1620739479065" />
-    <state width="1493" height="266" key="GridCell.Tab.0.left" timestamp="1621213270660">
+    <state width="1493" height="64" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1621461391128" />
+    <state width="1493" height="250" key="GridCell.Tab.0.left" timestamp="1621644295470">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1621213270660" />
+    <state width="1493" height="250" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1621644295470" />
     <state width="1877" height="266" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1620929210828" />
-    <state width="1493" height="197" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1620739479065" />
-    <state width="1493" height="266" key="GridCell.Tab.0.right" timestamp="1621213270660">
+    <state width="1493" height="64" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1621461391128" />
+    <state width="1493" height="250" key="GridCell.Tab.0.right" timestamp="1621644295471">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1621213270660" />
+    <state width="1493" height="250" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1621644295471" />
     <state width="1877" height="266" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1620929210830" />
-    <state width="1493" height="197" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1620739479065" />
+    <state width="1493" height="64" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1621461391128" />
     <state width="1493" height="144" key="GridCell.Tab.1.bottom" timestamp="1618262227872">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -460,9 +455,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="10" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1613431001588" />
-    <state x="2371" y="183" key="Vcs.Push.Dialog.v2" timestamp="1619142147069">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1621214410503">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1621214410503" />
     <state x="2371" y="183" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1619142147069" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1615769164690" />
     <state x="372" y="22" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1617506475758">
@@ -477,11 +473,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="254" y="0" width="581" height="824" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1615758558087" />
-    <state x="335" y="40" key="new project wizard" timestamp="1619462648732">
+    <state x="335" y="40" key="new project wizard" timestamp="1621453364514">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="335" y="40" key="new project wizard/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1618967958753" />
-    <state x="335" y="40" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1619462648732" />
+    <state x="335" y="40" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1621453364514" />
     <state x="2428" y="232" width="840" height="855" key="run.anything.popup" timestamp="1620868984779">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -573,7 +569,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/selenium/Dropdown/DropdownIntro.java</url>
-          <line>12</line>
+          <line>15</line>
           <properties class="selenium.Dropdown.DropdownIntro" method="test1">
             <option name="EMULATED" value="true" />
           </properties>
@@ -581,7 +577,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/selenium/Dropdown/DropdownIntro.java</url>
-          <line>42</line>
+          <line>45</line>
           <properties class="selenium.Dropdown.DropdownIntro" method="test4">
             <option name="EMULATED" value="true" />
           </properties>

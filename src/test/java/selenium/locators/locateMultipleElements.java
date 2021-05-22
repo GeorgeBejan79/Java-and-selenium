@@ -1,6 +1,7 @@
 package selenium.locators;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -14,60 +15,66 @@ import java.util.List;
 
 public class locateMultipleElements {
     @Test
-    public void multipleElements(){
+    public void multipleElements() {
         WebDriverManager.chromedriver().setup();
-        WebDriver driver=new ChromeDriver();
+        WebDriver driver = new ChromeDriver();
         driver.get("https://amazon.com");
-        WebElement searchBar=driver.findElement(By.id("twotabsearchtextbox"));
-        Actions actions=new Actions(driver);
-        actions.sendKeys(searchBar, "iphone 12"+ Keys.ENTER).perform();
-        List<WebElement> prices=driver.findElements
+        WebElement searchBar = driver.findElement(By.id("twotabsearchtextbox"));
+        Actions actions = new Actions(driver);
+        actions.sendKeys(searchBar, "iphone 12" + Keys.ENTER).perform();
+        List<WebElement> prices = driver.findElements
                 (By.xpath("//span[@class='a-price']"));
         /*
-        * 1.prices with $
-        * 2 prices with','
-        * empty prices
-        * 4prices with $ sign
-        * */
-        double totalPrice=0;
-        for (WebElement elementPrice:prices) {
+         * 1.prices with $
+         * 2 prices with','
+         * empty prices
+         * 4prices with $ sign
+         * */
+        double totalPrice = 0;
+        for (WebElement elementPrice : prices) {
             //System.out.println(elementPrice.getText());
-            String temp=elementPrice.getText();
-            if (temp.startsWith("$")){
+            String temp = elementPrice.getText();
+            if (temp.startsWith("$")) {
                 //remove dollar sign from the beginning
-                temp=temp.substring(1);
+                temp = temp.substring(1);
             }
-            if(temp.contains(",")){
+            if (temp.contains(",")) {
                 //if it has coma just remove it
-                temp=temp.replace(",","");
+                temp = temp.replace(",", "");
             }
-            if(temp.isEmpty()){
+            if (temp.isEmpty()) {
                 continue; //check if the value is empty should continue or skip
             }
-            if(temp.contains("\n")){
-                temp=temp.replace("\n",".");
+            if (temp.contains("\n")) {
+                temp = temp.replace("\n", ".");
             }
             //converts string temp to pure Doubles
-            totalPrice+=Double.parseDouble(temp);
+            totalPrice += Double.parseDouble(temp);
         }
         System.out.println(totalPrice);
     }
+
     @Test
-    public  void getNamesTest(){
+    public void getNamesTest() {
         WebDriverManager.chromedriver().setup();
-        WebDriver driver= new ChromeDriver();
+        WebDriver driver = new ChromeDriver();
         driver.get("https://amazon.com");
         driver.findElement(By.id("twotabsearchtextbox"))
-                .sendKeys("samsung"+Keys.ENTER);
-        List<WebElement>productNameList=driver.findElements
+                .sendKeys("samsung" + Keys.ENTER);
+        List<WebElement> productNameList = driver.findElements
                 (By.xpath("//span[@class='a-size-medium a-color-base a-text-normal']"));
-        List<String> productNames=new ArrayList<>(); //we will store all the elements in array of list
+        List<String> productNames = new ArrayList<>(); //we will store all the elements in array of list
 
-        for (WebElement product: productNameList) {
-            String temp=product.getText();
+        for (WebElement product : productNameList) {
+            String temp = product.getText();
 
             productNames.add(temp); //store all the names ito a list
         }
-       System.out.println(productNames);
+        int index = 0;
+        while (index < productNames.size()) {
+            System.out.println(index + ". " + productNames.get(index));
+            Assert.assertTrue(productNames.get(index).toLowerCase().contains("samsung"));
+            index++;
+        }
     }
 }

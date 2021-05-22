@@ -27,7 +27,7 @@ public class Etsy {
         Assert.assertTrue(shipIn1Day.isSelected());
         WebElement shipIn3Day = driver.findElement(By.xpath("//label[@for='max-processing-days-3']"));
         shipIn3Day.click();
-
+        Thread.sleep(2000);
         shipIn3Day = driver.findElement(By.xpath("//label[@for='max-processing-days-3']/preceding-sibling::input"));
         Assert.assertTrue(shipIn3Day.isSelected());
     }

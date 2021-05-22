@@ -24,9 +24,6 @@ public class TestNGIntro {
         Assert.assertTrue(url.contains("google"));
 
     }
-
-
-
     /*
        1. Navigate to amazon.com
        2. Search for Lenovo laptop
