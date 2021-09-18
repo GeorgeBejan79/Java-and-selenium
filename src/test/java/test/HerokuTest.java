@@ -8,8 +8,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class HerokuTest {
     @Test
     public void abTest() {
+
         System.setProperty("webdriver.chrome.driver", "resource/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
+
         driver.get("http://the-internet.herokuapp.com/");
         WebElement abTestLink = driver.findElement(By.xpath("//a[@href='/abtest']"));
         abTestLink.click();

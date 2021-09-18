@@ -55,7 +55,6 @@ public class Keyboard {
                 sendKeys("v").
                 keyUp(Keys.CONTROL)
                 .sendKeys(Keys.ENTER)
-
                 .perform();
     }
 }

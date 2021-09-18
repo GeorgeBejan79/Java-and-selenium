@@ -6,7 +6,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
-public class TestAnnotation {
+public class
+TestAnnotation {
     WebDriver driver;
 
     @BeforeClass
@@ -46,6 +47,20 @@ public class TestAnnotation {
         System.out.println("Executing techtorial test");
         driver.get("http://techtorialacademy.com");
         Assert.assertTrue(driver.getCurrentUrl().contains("techtorial"));
+    }
+    @Test(invocationTimeOut = 5000)
+    public void test5() throws InterruptedException {
+        System.out.println("Test 5");
+        //Thread.sleep(6000);
+    }
+    @Test(expectedExceptions = RuntimeException.class)  // test should throw runtime exception
+    public void test6(){
+        System.out.println("test 6");
+        //throw new RuntimeException();
+    }
+    @Test(dependsOnMethods = "test6")
+    public void test7(){
+
     }
 }
 

@@ -1,4 +1,5 @@
 package selenium.utils;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
@@ -14,16 +15,17 @@ public class Base {
     protected SoftAssert softAssert;
 
     @BeforeMethod
-    public void setup(){
-        String browser=CommonUtils.readProperty("src/test/resources/configurations.properties","browser");
-        driver=DriverUtils.getDriver(browser);
-        actions=new Actions(driver);
-        softAssert=new SoftAssert();
+    public void setup() {
+        String browser = CommonUtils.readProperty("src/test/resources/configurations.properties", "browser");
+        driver = DriverUtils.getDriver(browser);
+        actions = new Actions(driver);
+        softAssert = new SoftAssert();
     }
+
     @AfterMethod
-    public void tearDown(ITestResult result){
-        if(!result.isSuccess()){
-            CommonUtils.takeScreenShot(driver,result.getName());
+    public void tearDown(ITestResult result) {
+        if (!result.isSuccess()) {
+            CommonUtils.takeScreenShot(driver, result.getName());
         }
         driver.quit();
     }

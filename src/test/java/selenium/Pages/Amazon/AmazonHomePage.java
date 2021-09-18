@@ -25,10 +25,6 @@ public class AmazonHomePage {
         driver.get("https://www.amazon.com/");
         WebElement searchBox= driver.findElement(By.id("twotabsearchtextbox"));
         searchBox.sendKeys("MSI gaming laptop", Keys.ENTER);
-
         //Actions actions = new Actions(driver);
-
-
-
     }
 }

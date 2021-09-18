@@ -9,16 +9,16 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class SeleniumIntro {
     @Test
-    public void test1(){
-        System.setProperty("webdriver.chrome.driver","resources/chromedriver.exe");
+    public void test1() {
+        System.setProperty("webdriver.chrome.driver", "resources/chromedriver.exe");
         //webdriver is an interface and chromeDriver is class--> polymorphism
-        WebDriver driver= new ChromeDriver();
+        WebDriver driver = new ChromeDriver();
 
         driver.get("https://google.com");
         WebElement searchField = driver.findElement(By.xpath("//input[@name='q']"));
-        searchField.sendKeys("Selenium cookbook"+ Keys.ENTER);
-        String googleTitle=driver.getTitle();
-        System.out.println("Google search result page's title: "+googleTitle);
+        searchField.sendKeys("Selenium cookbook" + Keys.ENTER);
+        String googleTitle = driver.getTitle();
+        System.out.println("Google search result page's title: " + googleTitle);
     }
 
 }

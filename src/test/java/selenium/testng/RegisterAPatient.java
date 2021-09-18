@@ -33,6 +33,7 @@ public class RegisterAPatient {
         //patient last name
         WebElement familyName = driver.findElement(By.name("familyName"));
         familyName.sendKeys(lastName);
+
         WebElement nextButton = driver.findElement(By.id("next-button"));
         nextButton.click();
         //select gender
@@ -49,7 +50,7 @@ public class RegisterAPatient {
         WebElement birthYearBox = driver.findElement(By.id("birthdateYear-field"));
         birthYearBox.sendKeys(String.valueOf(birthYear));
         actions.click(nextButton).perform();
-        //address
+//        //address
         WebElement addressBox = driver.findElement(By.id("address1"));
         addressBox.sendKeys(address);
         actions.click(nextButton).perform();
@@ -57,13 +58,14 @@ public class RegisterAPatient {
         WebElement phoneNumberBox = driver.findElement(By.name("phoneNumber"));
         phoneNumberBox.sendKeys(String.valueOf(phoneNumber));
         actions.click(nextButton).perform();
-        //relatives
+//        //relatives
         WebElement relativeDD = driver.findElement(By.id("relationship_type"));
         select = new Select(relativeDD);
         select.selectByVisibleText(relative);
         actions.click(nextButton).perform();
         WebElement submitButton = driver.findElement(By.id("submit"));
-        actions.click(submitButton).perform();
+        //actions.click(submitButton).perform();
+        submitButton.click();
     }
     @DataProvider(name = "patientInfo")
     public Object[][] getPatientData() {
@@ -71,6 +73,7 @@ public class RegisterAPatient {
                 {"John", "Smith", "Male", 31, "August", 1971, "2200 E Devon ave", 8881112222L, "Sibling"}
         };
     }
+
     private void login() {
         WebElement usernameBox = driver.findElement(By.id("username"));
         WebElement passwordBox = driver.findElement(By.id("password"));

@@ -29,14 +29,16 @@ public class Parametrization2 {
             searchBox.sendKeys(myEmail + Keys.ENTER);
         }
         @Test
-        public void paralllelTest1() throws InterruptedException {
+        public void parallelTest1() throws InterruptedException {
             driver.navigate().to("http://techtorialacademy.com");
             Thread.sleep(20000);
+            //driver.quit();
         }
         @Test
-        public void paralllelTest2() throws InterruptedException {
+        public void parallelTest2() throws InterruptedException {
             driver.navigate().to("https://etsy.com");
             Thread.sleep(20000);
+            //driver.quit();
         }
     }
 }

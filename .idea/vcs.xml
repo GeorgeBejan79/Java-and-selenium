@@ -2,5 +2,13 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/test/java/ArraysProject (1)/Cucumber/APIone" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/test/java/ArraysProject (1)/Cucumber/Git Project3" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/test/java/ArraysProject (1)/Cucumber/LearnGitLab" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/test/java/ArraysProject (1)/Cucumber/christinefortelny-nbcuni" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/test/java/ArraysProject (1)/EspoCRM1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/test/java/ArraysProject (1)/GitPlayGroundB7" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/test/java/ArraysProject (1)/TechCrushers" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/test/java/ArraysProject (1)/TechtorialGitCrasher" vcs="Git" />
   </component>
 </project>

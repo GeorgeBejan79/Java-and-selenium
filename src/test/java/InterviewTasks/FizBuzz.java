@@ -18,21 +18,19 @@ public class FizBuzz {
 //            }
 //            a++;
 //    }
+        for (int i = 1; i < 100; i++) {
+            if (i % (3 * 5) == 0) {
+                System.out.println("fizzbuzz");
 
-                for ( int i = 1; i < 100; i++) {
-                    if (i%(3*5)==0){
-                        System.out.println("fizzbuzz");
+            } else if (i % 3 == 0) {
+                System.out.println("fizz");
 
-                    }
-                     if (i%3==0){
-                        System.out.println("fizz");
-
-                    }
-                     if (i%5==0){
-                        System.out.println("buzz");
-                    }
-                    else
-                        System.out.println(i);
-                }
-            }
+            } else if (i % 5 == 0) {
+                System.out.println("buzz");
+            } else
+                System.out.println(i);
         }
+//            String answer = (i % 15 == 0) ? "fizbuzz" : (i % 5 == 0) ? "Buzz" : (i % 3 == 0) ? "FIzz" : "" + i;
+//            System.out.println(answer);
+        }
+    }

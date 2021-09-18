@@ -6,7 +6,6 @@
             <class name="selenium.testng.EtsySearch"></class>
 
 
-
         </classes>
 
     </test>

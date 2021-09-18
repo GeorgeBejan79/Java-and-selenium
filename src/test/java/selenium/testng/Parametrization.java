@@ -1,4 +1,5 @@
 package selenium.testng;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -22,9 +23,22 @@ public class Parametrization {
 
         driver.navigate().to("https://facebook.com");
         Assert.assertTrue(driver.getCurrentUrl().contains("facebook"));
+
         WebElement emailField= driver.findElement(By.id("email"));
         WebElement passwordField= driver.findElement(By.id("pass"));
         emailField.sendKeys(myUsername);
         passwordField.sendKeys(myPassword);
+//        WebElement bfLogoutButton= driver.findElement(By.xpath("//div[@class='j83agx80 l9j0dhe7']"));
+//        bfLogoutButton.click();
+    }
+    @Test
+    public void parallelTest() throws InterruptedException{
+        driver.navigate().to("http://techtorialacademy.com");
+        Thread.sleep(2000);
+    }
+    @Test
+    public void parallelTest2() throws InterruptedException {
+        driver.navigate().to("https://etsy.com");
+        Thread. sleep(2000);
     }
 }

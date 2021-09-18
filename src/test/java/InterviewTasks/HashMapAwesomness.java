@@ -2,10 +2,10 @@ package InterviewTasks;
 
 import java.util.HashMap;
 
-public class HashMapAwesomness {
-    public static void main(String[] args) {
-
-
+public class HashMapAwesomness
+{
+    public static void main(String[] args)
+    {
         int a = 10;
         int b = 3;
         int c = 88;
@@ -16,7 +16,7 @@ public class HashMapAwesomness {
 //        happy.put("c", 88);
 //        System.out.println(happy);// prints values and keys added
 //        System.out.println(happy.get("c"+"prints value of c"));
-        HashMap <String, String>fun =new HashMap<String, String>();
+        HashMap<String, String> fun = new HashMap<String, String>();
         fun.put("bobyJoe96", "fluflyPonies");
         fun.put("HelloKitty", "aloeverra");
         fun.put("coolgusguy", "password123");

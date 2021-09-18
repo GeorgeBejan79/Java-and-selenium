@@ -16,7 +16,7 @@ public class CapitalizeFistLetterOfEachWord {
 // Welcome To Java
 
 
-    String str = "everyone loves java so much";
+        String str = "everyone loves java so much";
 
 //    // stores each characters to a char array
 //    char[] charArray = str.toCharArray();
@@ -46,7 +46,7 @@ public class CapitalizeFistLetterOfEachWord {
 //    str = String.valueOf(charArray);
 //    System.out.println( str);
 
-            //Split sentence into words
+        //Split sentence into words
 //            String words[]=str.split("\\s");
 //            String newString ="";
 //
@@ -62,14 +62,14 @@ public class CapitalizeFistLetterOfEachWord {
 //            //trim to remove the last redundant blank space
 //            System.out.println(newString.trim());
 
-        String result="";
-        String [] arr =str.split(" ");
-        for(int i=0; i<arr.length; i++){
-            if(Character.isLetter(arr[i].charAt(0))){
-                arr[i]= String.valueOf(arr[i].charAt(0)).toUpperCase()+arr[i].substring(1);
-                result+=arr[i]+" ";
+        String result = "";
+        String[] arr = str.split(" ");
+        for (int i = 0; i < arr.length; i++) {
+            if (Character.isLetter(arr[i].charAt(0))) {
+                arr[i] = String.valueOf(arr[i].charAt(0)).toUpperCase() + arr[i].substring(1);
+                result += arr[i] + " ";
             }
         }
         System.out.println(result);
-}
+    }
 }

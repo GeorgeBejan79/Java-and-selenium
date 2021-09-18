@@ -24,5 +24,6 @@ public class Task {
 
         WebDriverWait wait= new WebDriverWait(driver,15);
         wait.until(ExpectedConditions.titleIs("george"));
+
     }
 }

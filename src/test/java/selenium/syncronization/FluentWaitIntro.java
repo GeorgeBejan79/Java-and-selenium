@@ -10,20 +10,24 @@ import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Wait;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+
 import java.time.Duration;
+
 public class FluentWaitIntro {
     WebDriver driver;
+
     @BeforeMethod
     public void setup() {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
     }
+
     @Test
-    public void test(){
+    public void test() {
 
         driver.get("https://google.com");
-            // by fluent wait you can catch elements that appears and disappear
-        Wait < WebDriver > fluentWait=new FluentWait<>(driver).
+        // by fluent wait you can catch elements that appears and disappear
+        Wait<WebDriver> fluentWait = new FluentWait<>(driver).
                 withTimeout(Duration.ofSeconds(30)).   // wait for 30 seconds
                 pollingEvery(Duration.ofSeconds(2)).   //checks every 2 sec
                 ignoring(NoSuchElementException.class);  //ignoring noSuchElementException
