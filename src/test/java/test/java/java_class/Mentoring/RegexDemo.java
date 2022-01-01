@@ -6,7 +6,7 @@ public class RegexDemo {
     public static void main(String[] args) {
         /*String text ="773#012*3456";
         String regex ="\\w\\w\\w";
-        Pattern pattern=Pattern.compile(regex);
+        Pattern pattern=Pattern.compile(regex);3
         Matcher matcher =pattern.matcher(text);
         boolean result=matcher.matcher.*/
 

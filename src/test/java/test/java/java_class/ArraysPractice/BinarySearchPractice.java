@@ -8,8 +8,9 @@ public class BinarySearchPractice {
          * If number is available the binary search will return index of the element
          * If number is not available the binary search will return expected location of the element with counting and result will be negative */
         int[] numbers = {4, 5, 5,  5, 6787, 3, 6, 856};
+        Arrays.sort(numbers);
         System.out.println(Arrays.toString(numbers));
-        int result = Arrays.binarySearch(numbers, 6);
+        int result = Arrays.binarySearch(numbers, 6787);
         System.out.println(result);
     }
 }

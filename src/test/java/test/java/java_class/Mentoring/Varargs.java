@@ -1,7 +1,8 @@
 package test.java.java_class.Mentoring;
 
 public class Varargs {
-    public static int sum(int num1, int num2) {
+    public static int sum(int num1, int num2)
+    {
         return num1+num2;
     }
 
@@ -37,7 +38,6 @@ public class Varargs {
         for(int i=0; i<nums.length; i++) {
             num1 -= nums[i];
         }
-
         return num1;
     }
 }

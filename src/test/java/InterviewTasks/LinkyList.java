@@ -20,7 +20,5 @@ public class LinkyList
                 System.out.println("we found 78");
             }
         }
-
     }
-
 }

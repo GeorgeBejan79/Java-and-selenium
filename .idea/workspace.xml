@@ -23,8 +23,185 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3988ddba-f132-4b2f-8ec6-37d5d8ed358a" name="Default Changelist" comment="Java and selenium">
-      <change afterPath="$PROJECT_DIR$/src/test/java/InterviewTasks/FToCelsius.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_12_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/InterviewTasks/FindCountOfEachLetterInString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/InterviewTasks/MissingNumberInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/api/CatFact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/java/java_class/Lambadas/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/java/java_class/Lambadas/CheckIfHopper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/java/java_class/Lambadas/CheckTrait.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/java/java_class/Lambadas/LambadasIntro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/java/java_class/Lambadas/TraditionalSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/TechtorialB7.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TechtorialB7.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_osgi_2_3_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_2_3_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_11_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_json_path_4_3_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_json_path_4_4_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_rest_assured_4_3_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_rest_assured_4_4_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_rest_assured_common_4_3_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_rest_assured_common_4_4_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_xml_path_4_3_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_xml_path_4_4_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_13.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_13.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_13.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_sling_org_apache_sling_javax_activation_0_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_3_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_3_0_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_json_3_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_json_3_0_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_xml_3_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_xml_3_0_8.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/InterviewTasks/ArrayListExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/InterviewTasks/ArrayListExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/InterviewTasks/HowManyAlphaChar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/InterviewTasks/HowManyAlphaChar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/InterviewTasks/LinkyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/InterviewTasks/LinkyList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/InterviewTasks/Regex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/InterviewTasks/Regex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/InterviewTasks/RemoveDuplicatesArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/InterviewTasks/RemoveDuplicatesArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/InterviewTasks/ReverseAStringWordByWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/InterviewTasks/ReverseAStringWordByWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/InterviewTasks/ReverseStringAndCountRepChar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/InterviewTasks/ReverseStringAndCountRepChar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/InterviewTasks/SplitMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/InterviewTasks/SplitMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/InterviewTasks/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/InterviewTasks/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/restassured/Deserialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/restassured/Deserialization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/Dropdown/DropDownTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/Dropdown/DropDownTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/Dropdown/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/Dropdown/Practice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/HartOfTesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/HartOfTesting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/Iframes/IFrameIntro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/Iframes/IFrameIntro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/alerts/AlertsIntro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/alerts/AlertsIntro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/alerts/Task.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/jsexecutor/JSIntro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/jsexecutor/JSIntro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/locators/CssLocatorIntro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/locators/CssLocatorIntro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/locators/XpathAdv.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/locators/XpathAdv.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/locators/locateMultipleElements.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/mentoring/DigitsRegex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/mentoring/DigitsRegex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/mentoring/Mentoring1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/mentoring/Mentoring1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/mentoring/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/mentoring/Palindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/mentoring/Regex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/mentoring/Regex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/proprieties/ProprietiesIntro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/proprieties/ProprietiesIntro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/screenshots/PracticeScreenshots.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/screenshots/PracticeScreenshots.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/screenshots/ScreenshotIntro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/screenshots/ScreenshotIntro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/syncronization/FluentWaitIntro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/syncronization/FluentWaitIntro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/syncronization/ImplicitWaitIntro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/syncronization/ImplicitWaitIntro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/syncronization/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/syncronization/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/testng/Parametrization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/testng/Parametrization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/testng/SoftAssertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/testng/SoftAssertion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/utils/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/utils/Base.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/utils/CommonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/utils/CommonUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/selenium/windows/WindowsIntro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/selenium/windows/WindowsIntro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/java/java_class/Arrays/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/java/java_class/Arrays/Practice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/java/java_class/ArraysPractice/AnalyzeNumbersArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/java/java_class/ArraysPractice/AnalyzeNumbersArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/java/java_class/ArraysPractice/ArrayPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/java/java_class/ArraysPractice/ArrayPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/java/java_class/ArraysPractice/ArraySorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/java/java_class/ArraysPractice/ArraySorting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/java/java_class/ArraysPractice/ArraysPractice1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/java/java_class/ArraysPractice/ArraysPractice1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/java/java_class/ArraysPractice/BinarySearchPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/java/java_class/ArraysPractice/BinarySearchPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/java/java_class/ArraysPractice/CodingBat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/java/java_class/ArraysPractice/CodingBat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/java/java_class/ArraysPractice/CodingBat1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/java/java_class/ArraysPractice/CodingBat1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/java/java_class/ArraysPractice/EliminateDuplicatesArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/java/java_class/ArraysPractice/EliminateDuplicatesArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/java/java_class/ArraysPractice/FindMissingNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/java/java_class/ArraysPractice/FindMissingNum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/java/java_class/ArraysPractice/SortingArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/java/java_class/ArraysPractice/SortingArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/java/java_class/Blocks/selenium/Dropdown/Homework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/java/java_class/Blocks/selenium/Dropdown/Homework.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/java/java_class/Blocks/selenium/locators/LocateMultipleElements.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/java/java_class/Blocks/selenium/project1/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/java/java_class/Blocks/selenium/project1/Task1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/java/java_class/Blocks/selenium/project1/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/java/java_class/Blocks/selenium/project1/Task2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/java/java_class/Blocks/selenium/project1/Task4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/java/java_class/Blocks/selenium/project1/Task4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/java/java_class/Homework/HwEightTskFour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/java/java_class/Homework/HwEightTskFour.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/java/java_class/Homework/HwEightTskSeven.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/java/java_class/Homework/HwEightTskSeven.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/java/java_class/Homework/HwEightTskSix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/java/java_class/Homework/HwEightTskSix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/java/java_class/Homework/HwEightTskThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/java/java_class/Homework/HwEightTskThree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/java/java_class/Homework/HwEightTskTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/java/java_class/Homework/HwEightTskTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/java/java_class/Homework/HwFiveTskEight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/java/java_class/Homework/HwFiveTskEight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/java/java_class/Homework/HwFiveTskFive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/java/java_class/Homework/HwFiveTskFive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/java/java_class/Maps/HashMapExample2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/java/java_class/Maps/HashMapExample2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/java/java_class/MaxBtwFml/CodingBatPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/java/java_class/MaxBtwFml/CodingBatPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/java/java_class/Mentoring/ArrayArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/java/java_class/Mentoring/ArrayArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/java/java_class/Mentoring/BigrammQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/java/java_class/Mentoring/BigrammQuestion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/java/java_class/Mentoring/MapEntryPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/java/java_class/Mentoring/MapEntryPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/java/java_class/Mentoring/RegexDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/java/java_class/Mentoring/RegexDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/java/java_class/Mentoring/Shapes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/java/java_class/Mentoring/Shapes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/java/java_class/Mentoring/SortArrayInAscendingOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/java/java_class/Mentoring/SortArrayInAscendingOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/java/java_class/Mentoring/Varargs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/java/java_class/Mentoring/Varargs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/java/java_class/Sets/HasSetPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/java/java_class/Sets/HasSetPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/java/java_class/Sets/LinkedHashSetPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/java/java_class/Sets/LinkedHashSetPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/java/java_class/Sets/SetIteration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/java/java_class/Sets/SetIteration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/java/java_class/Sets/StringExample/EqualsMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/java/java_class/Sets/StringExample/EqualsMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/java/java_class/Sets/StringExample/StringBasics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/java/java_class/Sets/StringExample/StringBasics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/java/java_class/Sets/StringExample/StringConcat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/java/java_class/Sets/StringExample/StringConcat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/java/java_class/Sets/StringExample/StringMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/java/java_class/Sets/StringExample/StringMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/java/java_class/Sets/StringExample/StringMethods3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/java/java_class/Sets/StringExample/StringMethods3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/java/java_class/Sets/StringExample/StringMethods4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/java/java_class/Sets/StringExample/StringMethods4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/java/java_class/Sets/StringExample/StringPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/java/java_class/Sets/StringExample/StringPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/java/java_class/Sets/TreeSetPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/java/java_class/Sets/TreeSetPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/java/java_class/StringBuilderPr/BuilderIntro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/java/java_class/StringBuilderPr/BuilderIntro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/java/java_class/StringBuilderPr/BuilderMethods2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/java/java_class/StringBuilderPr/BuilderMethods2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/java/java_class/WrapperClass/StringToPrimitive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/java/java_class/WrapperClass/StringToPrimitive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/InterviewTasks/ArrayListExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/InterviewTasks/ArrayListExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/InterviewTasks/HowManyAlphaChar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/InterviewTasks/HowManyAlphaChar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/InterviewTasks/LinkyList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/InterviewTasks/LinkyList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/InterviewTasks/Regex.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/InterviewTasks/Regex.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/InterviewTasks/RemoveDuplicatesArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/InterviewTasks/RemoveDuplicatesArrayList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/InterviewTasks/ReverseAStringWordByWord.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/InterviewTasks/ReverseAStringWordByWord.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/InterviewTasks/SplitMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/InterviewTasks/SplitMethod.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/InterviewTasks/Test1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/Dropdown/Practice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/Dropdown/Practice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/HartOfTesting.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/HartOfTesting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/Iframes/IFrameIntro.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/Iframes/IFrameIntro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/alerts/AlertsIntro.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/alerts/AlertsIntro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/alerts/Task.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/jsexecutor/JSIntro.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/jsexecutor/JSIntro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/locators/CssLocatorIntro.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/locators/CssLocatorIntro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/mentoring/Mentoring1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/mentoring/Mentoring1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/mentoring/Palindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/mentoring/Palindrome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/mentoring/Regex.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/mentoring/Regex.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/proprieties/ProprietiesIntro.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/proprieties/ProprietiesIntro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/screenshots/PracticeScreenshots.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/screenshots/PracticeScreenshots.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/screenshots/ScreenshotIntro.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/screenshots/ScreenshotIntro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/syncronization/FluentWaitIntro.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/syncronization/FluentWaitIntro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/syncronization/ImplicitWaitIntro.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/syncronization/ImplicitWaitIntro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/syncronization/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/syncronization/Task.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/testng/Parametrization.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/testng/Parametrization.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/utils/Base.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/utils/Base.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/utils/CommonUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/utils/CommonUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/selenium/windows/WindowsIntro.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/selenium/windows/WindowsIntro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/java_class/Arrays/Practice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/java/java_class/Arrays/Practice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/java_class/ArraysPractice/AnalyzeNumbersArrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/java/java_class/ArraysPractice/AnalyzeNumbersArrays.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/java_class/ArraysPractice/ArrayPractice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/java/java_class/ArraysPractice/ArrayPractice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/java_class/ArraysPractice/ArraySorting.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/java/java_class/ArraysPractice/ArraySorting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/java_class/ArraysPractice/ArraysPractice1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/java/java_class/ArraysPractice/ArraysPractice1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/java_class/ArraysPractice/BinarySearchPractice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/java/java_class/ArraysPractice/BinarySearchPractice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/java_class/ArraysPractice/CodingBat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/java/java_class/ArraysPractice/CodingBat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/java_class/ArraysPractice/CodingBat1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/java/java_class/ArraysPractice/CodingBat1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/java_class/ArraysPractice/EliminateDuplicatesArrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/java/java_class/ArraysPractice/EliminateDuplicatesArrays.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/java_class/ArraysPractice/FindMissingNum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/java/java_class/ArraysPractice/FindMissingNum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/java_class/ArraysPractice/SortingArrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/java/java_class/ArraysPractice/SortingArrays.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/java_class/Blocks/selenium/Dropdown/Homework.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/java/java_class/Blocks/selenium/Dropdown/Homework.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/java_class/Blocks/selenium/locators/LocateMultipleElements$keyboard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/java_class/Blocks/selenium/locators/LocateMultipleElements.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/java_class/Blocks/selenium/locators/XpathAdv.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/java_class/Blocks/selenium/project1/Task1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/java/java_class/Blocks/selenium/project1/Task1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/java_class/Homework/HwEightTskSeven.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/java/java_class/Homework/HwEightTskSeven.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/java_class/Homework/HwEightTskSix.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/java/java_class/Homework/HwEightTskSix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/java_class/Homework/HwEightTskTwo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/java/java_class/Homework/HwEightTskTwo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/java_class/Homework/HwFiveTskEight.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/java/java_class/Homework/HwFiveTskEight.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/java_class/Homework/HwFiveTskFive.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/java/java_class/Homework/HwFiveTskFive.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/java_class/Maps/HashMapExample2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/java/java_class/Maps/HashMapExample2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/java_class/MaxBtwFml/MaxBtwFmL.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/java/java_class/MaxBtwFml/MaxBtwFmL.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/java_class/Mentoring/ArrayArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/java/java_class/Mentoring/ArrayArrayList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/java_class/Mentoring/BigrammQuestion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/java/java_class/Mentoring/BigrammQuestion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/java_class/Mentoring/MapEntryPractice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/java/java_class/Mentoring/MapEntryPractice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/java_class/Mentoring/Shapes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/java/java_class/Mentoring/Shapes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/java_class/Mentoring/SortArrayInAscendingOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/java/java_class/Mentoring/SortArrayInAscendingOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/java_class/Mentoring/Varargs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/java/java_class/Mentoring/Varargs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/java_class/Sets/HasSetPractice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/java/java_class/Sets/HasSetPractice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/java_class/Sets/LinkedHashSetPractice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/java/java_class/Sets/LinkedHashSetPractice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/java_class/Sets/SetIteration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/java/java_class/Sets/SetIteration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/java_class/Sets/StringExample/StringBasics.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/java/java_class/Sets/StringExample/StringBasics.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/java_class/Sets/StringExample/StringConcat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/java/java_class/Sets/StringExample/StringConcat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/java_class/Sets/StringExample/StringMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/java/java_class/Sets/StringExample/StringMethods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/java_class/Sets/StringExample/StringMethods3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/java/java_class/Sets/StringExample/StringMethods3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/java_class/Sets/StringExample/StringPractice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/java/java_class/Sets/StringExample/StringPractice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/java_class/Sets/TreeSetPractice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/java/java_class/Sets/TreeSetPractice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/java_class/StringBuilderPr/BuilderIntro.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/java/java_class/StringBuilderPr/BuilderIntro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/java_class/StringBuilderPr/BuilderMethods2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/java/java_class/StringBuilderPr/BuilderMethods2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/java_class/WrapperClass/StringToPrimitive.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/java/java_class/WrapperClass/StringToPrimitive.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,9 +215,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="package-info" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -95,14 +272,9 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\gbeja\IdeaProjects\TechtorialB7" />
-      <recent name="C:\Users\gbeja\IdeaProjects\TechtorialB7\src\test\java\selenium\locators" />
-      <recent name="C:\Users\gbeja\IdeaProjects\TechtorialB7\src\Constructor" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="test.java.java_class.MaxBtwFml" />
       <recent name="Constructor" />
@@ -112,6 +284,14 @@
       <recent name="C:\Users\gbeja\IdeaProjects\TechtorialB7\resource" />
       <recent name="C:\Users\gbeja\IdeaProjects\TechtorialB7\resources" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="selenium.locators" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\gbeja\IdeaProjects\TechtorialB7" />
+      <recent name="C:\Users\gbeja\IdeaProjects\TechtorialB7\src\test\java\selenium\locators" />
+      <recent name="C:\Users\gbeja\IdeaProjects\TechtorialB7\src\Constructor" />
+    </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
@@ -119,13 +299,39 @@
       <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.FToCelsius">
-    <configuration name="Collections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewTasks.Collections" />
+  <component name="RunManager" selected="Application.TraditionalSearch">
+    <configuration name="BuilderIntro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.java.java_class.StringBuilderPr.BuilderIntro" />
       <module name="TechtorialB7" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InterviewTasks.*" />
+          <option name="PATTERN" value="test.java.java_class.StringBuilderPr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BuilderMethods1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.java.java_class.StringBuilderPr.BuilderMethods1" />
+      <module name="TechtorialB7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.java_class.StringBuilderPr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BuilderMethods2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.java.java_class.StringBuilderPr.BuilderMethods2" />
+      <module name="TechtorialB7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.java_class.StringBuilderPr.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,32 +352,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FToCelsius" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewTasks.FToCelsius" />
-      <module name="TechtorialB7" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="InterviewTasks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindDuplicateElementsArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewTasks.FindDuplicateElementsArray" />
-      <module name="TechtorialB7" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="InterviewTasks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Hw12TskThree" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Homework12.Hw12TskThree" />
       <module name="TechtorialB7" />
@@ -179,12 +359,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkyList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewTasks.LinkyList" />
+    <configuration name="LambadasIntro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.java.java_class.Lambadas.LambadasIntro" />
       <module name="TechtorialB7" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InterviewTasks.*" />
+          <option name="PATTERN" value="test.java.java_class.Lambadas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -192,12 +372,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecondL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InterviewTasks.SecondL" />
+    <configuration name="TraditionalSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.java.java_class.Lambadas.TraditionalSearch" />
       <module name="TechtorialB7" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InterviewTasks.*" />
+          <option name="PATTERN" value="test.java.java_class.Lambadas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -238,23 +418,23 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Collections" />
       <item itemvalue="Application.Computer" />
-      <item itemvalue="Application.FToCelsius" />
-      <item itemvalue="Application.FindDuplicateElementsArray" />
       <item itemvalue="Application.Hw12TskThree" />
-      <item itemvalue="Application.LinkyList" />
-      <item itemvalue="Application.SecondL" />
       <item itemvalue="JUnit.HartOfTesting.test1" />
       <item itemvalue="JUnit.LocateMultipleElements.multipleElements" />
+      <item itemvalue="Application.BuilderIntro" />
+      <item itemvalue="Application.BuilderMethods1" />
+      <item itemvalue="Application.BuilderMethods2" />
+      <item itemvalue="Application.LambadasIntro" />
+      <item itemvalue="Application.TraditionalSearch" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FToCelsius" />
-        <item itemvalue="Application.FindDuplicateElementsArray" />
-        <item itemvalue="Application.Collections" />
-        <item itemvalue="Application.LinkyList" />
-        <item itemvalue="Application.SecondL" />
+        <item itemvalue="Application.TraditionalSearch" />
+        <item itemvalue="Application.LambadasIntro" />
+        <item itemvalue="Application.BuilderMethods2" />
+        <item itemvalue="Application.BuilderMethods1" />
+        <item itemvalue="Application.BuilderIntro" />
       </list>
     </recent_temporary>
   </component>
@@ -330,7 +510,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631935698541</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Java and selenium">
+      <created>1632233137877</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1632233137877</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -355,77 +542,71 @@
     <option name="LAST_COMMIT_MESSAGE" value="Java and selenium" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2685" y="203" key="#com.intellij.ide.util.MemberChooser" timestamp="1624156584362">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2685" y="203" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1624156584362" />
-    <state x="341" y="282" width="655" height="219" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1624571217084">
+    <state x="408" y="92" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1641006484636">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="341" y="282" width="655" height="219" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1624571217084" />
-    <state x="549" y="207" key="FileChooserDialogImpl" timestamp="1630969578531">
-      <screen x="0" y="40" width="1536" height="824" />
-    </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1629512048348" />
-    <state x="549" y="207" key="FileChooserDialogImpl/0.40.1536.824@0.40.1536.824" timestamp="1630969578531" />
-    <state width="1234" height="115" key="GridCell.Tab.0.bottom" timestamp="1632176193234">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1234" height="115" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1632176193234" />
-    <state width="1493" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1626471012304" />
-    <state width="1877" height="227" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1624157419102" />
-    <state width="1493" height="115" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1632174473986" />
-    <state width="1234" height="115" key="GridCell.Tab.0.center" timestamp="1632176193234">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1234" height="115" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1632176193234" />
-    <state width="1493" height="195" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1626471012304" />
-    <state width="1877" height="227" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1624157419102" />
-    <state width="1493" height="115" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1632174473985" />
-    <state width="1234" height="115" key="GridCell.Tab.0.left" timestamp="1632176193234">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1234" height="115" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1632176193234" />
-    <state width="1493" height="195" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1626471012304" />
-    <state width="1877" height="227" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1624157419102" />
-    <state width="1493" height="115" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1632174473985" />
-    <state width="1234" height="115" key="GridCell.Tab.0.right" timestamp="1632176193234">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1234" height="115" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1632176193234" />
-    <state width="1493" height="195" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1626471012304" />
-    <state width="1877" height="227" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1624157419102" />
-    <state width="1493" height="115" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1632174473985" />
-    <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1624229166050">
+    <state x="408" y="92" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1536.824@0.0.1536.824" timestamp="1641006484636" />
+    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1634001494904">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1624229166050" />
-    <state x="277" y="57" key="SettingsEditor" timestamp="1631935293154">
+    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/1920.0.3440.1400@0.0.1536.824" timestamp="1634001494904" />
+    <state x="515" y="256" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1633992660709">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="57" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1623429379790" />
-    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1631935293154" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1631935308302">
+    <state x="515" y="256" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824/1920.0.3440.1400@0.0.1536.824" timestamp="1633992660709" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1634070184393">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1631935308302" />
-    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1631935473873">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/1920.0.3440.1400@0.0.1536.824" timestamp="1634070184393" />
+    <state width="1493" height="166" key="GridCell.Tab.0.bottom" timestamp="1641007389159">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1631935473873" />
-    <state x="138" y="66" key="new project wizard" timestamp="1623789191256">
+    <state width="1488" height="104" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.3440.1400@0.0.1536.824" timestamp="1633629312116" />
+    <state width="1674" height="63" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.3440.1400@1920.0.3440.1400" timestamp="1634682000249" />
+    <state width="1493" height="166" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1641007389159" />
+    <state width="1678" height="244" key="GridCell.Tab.0.bottom/0.0.1720.680@0.0.1720.680" timestamp="1634440657830" />
+    <state width="1860" height="330" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1640110433757" />
+    <state width="2182" height="319" key="GridCell.Tab.0.bottom/0.0.3440.1400@0.0.3440.1400" timestamp="1640816564458" />
+    <state width="1493" height="166" key="GridCell.Tab.0.center" timestamp="1641007389158">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="138" y="66" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1623789191256" />
-    <state x="406" y="184" width="672" height="677" key="run.anything.popup" timestamp="1624453939930">
+    <state width="1488" height="104" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.3440.1400@0.0.1536.824" timestamp="1633629312116" />
+    <state width="1674" height="63" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.3440.1400@1920.0.3440.1400" timestamp="1634682000249" />
+    <state width="1493" height="166" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1641007389158" />
+    <state width="1678" height="244" key="GridCell.Tab.0.center/0.0.1720.680@0.0.1720.680" timestamp="1634440657830" />
+    <state width="1860" height="330" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1640110433757" />
+    <state width="2182" height="319" key="GridCell.Tab.0.center/0.0.3440.1400@0.0.3440.1400" timestamp="1640816564458" />
+    <state width="1493" height="166" key="GridCell.Tab.0.left" timestamp="1641007389158">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="406" y="184" width="672" height="678" key="run.anything.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1624031634315" />
-    <state x="406" y="184" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1624453939930" />
-    <state x="411" y="145" width="672" height="679" key="search.everywhere.popup" timestamp="1627929924624">
+    <state width="1488" height="104" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.3440.1400@0.0.1536.824" timestamp="1633629312115" />
+    <state width="1674" height="63" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.3440.1400@1920.0.3440.1400" timestamp="1634682000248" />
+    <state width="1493" height="166" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1641007389158" />
+    <state width="1678" height="244" key="GridCell.Tab.0.left/0.0.1720.680@0.0.1720.680" timestamp="1634440657830" />
+    <state width="1860" height="330" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1640110433757" />
+    <state width="2182" height="319" key="GridCell.Tab.0.left/0.0.3440.1400@0.0.3440.1400" timestamp="1640816564458" />
+    <state width="1493" height="166" key="GridCell.Tab.0.right" timestamp="1641007389158">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="411" y="145" width="672" height="679" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1627929924624" />
+    <state width="1488" height="104" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.3440.1400@0.0.1536.824" timestamp="1633629312116" />
+    <state width="1674" height="63" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.3440.1400@1920.0.3440.1400" timestamp="1634682000249" />
+    <state width="1493" height="166" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1641007389158" />
+    <state width="1678" height="244" key="GridCell.Tab.0.right/0.0.1720.680@0.0.1720.680" timestamp="1634440657830" />
+    <state width="1860" height="330" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1640110433757" />
+    <state width="2182" height="319" key="GridCell.Tab.0.right/0.0.3440.1400@0.0.3440.1400" timestamp="1640816564458" />
+    <state x="277" y="57" key="SettingsEditor" timestamp="1633992703030">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824/1920.0.3440.1400@0.0.1536.824" timestamp="1633992703030" />
+    <state x="2388" y="124" key="new project wizard" timestamp="1634591585878">
+      <screen x="1920" y="0" width="3440" height="1400" />
+    </state>
+    <state x="209" y="73" key="new project wizard/0.0.1536.824/1920.0.3440.1400@0.0.1536.824" timestamp="1634070319571" />
+    <state x="2388" y="124" key="new project wizard/0.0.1536.824/1920.0.3440.1400@1920.0.3440.1400" timestamp="1634591585878" />
+    <state x="4156" y="334" width="672" height="677" key="run.anything.popup" timestamp="1634589170663">
+      <screen x="1920" y="0" width="3440" height="1400" />
+    </state>
+    <state x="4156" y="334" width="672" height="677" key="run.anything.popup/0.0.1536.824/1920.0.3440.1400@1920.0.3440.1400" timestamp="1634589170663" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -451,7 +632,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/test/java/java_class/MaxBtwFml/CodingBatPractice.java</url>
-          <line>6</line>
+          <line>9</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -470,9 +651,9 @@
           <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/selenium/syncronization/ImplicitWaitIntro.java</url>
-          <line>50</line>
-          <option name="timeStamp" value="34" />
+          <url>file://$PROJECT_DIR$/src/test/java/selenium/proprieties/ProprietiesIntro.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/test/java/java_class/Blocks/selenium/Dropdown/DropdownIntro.java</url>
@@ -497,30 +678,6 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/InterviewTasks/ReverseAStringWordByWord.java</url>
-          <line>3</line>
-          <properties class="InterviewTasks.ReverseAStringWordByWord" method="main">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/selenium/Dropdown/DropdownIntro.java</url>
-          <line>45</line>
-          <properties class="selenium.Dropdown.DropdownIntro" method="test4">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/api/restassured/GetRequest.java</url>
-          <line>22</line>
-          <properties class="api.restassured.GetRequest" method="test2">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/test/java/test/java/java_class/ArrayListPractice/Computer.java</url>

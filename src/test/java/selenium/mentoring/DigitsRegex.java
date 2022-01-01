@@ -8,7 +8,7 @@ public class DigitsRegex {
 
     public static String mathSolution(String str) {
 
-        if(!str.matches("[0-9x]+ [+\\-*/] [0-9x]+ = [0-9x]+")){
+        if (!str.matches("[0-9x]+ [+\\-*/] [0-9x]+ = [0-9x]+")) {
             throw new IllegalArgumentException("Wrong parameter pattern");
         }
 
@@ -21,13 +21,13 @@ public class DigitsRegex {
 
         switch (indexOfX) {
             case 0:
-                actualNumber = logicForFirstDigit(operators[2],operators[4],operators[1]);
+                actualNumber = logicForFirstDigit(operators[2], operators[4], operators[1]);
                 break;
             case 2:
-                actualNumber = logicForSecondDigit(operators[0],operators[4],operators[1]);
+                actualNumber = logicForSecondDigit(operators[0], operators[4], operators[1]);
                 break;
             case 4:
-                actualNumber = logicForThirdDigit(operators[0],operators[2],operators[1]);
+                actualNumber = logicForThirdDigit(operators[0], operators[2], operators[1]);
                 break;
         }
 
@@ -36,12 +36,12 @@ public class DigitsRegex {
         // actualNumberStr = 455555
         // the given Str at index(0) = 4555x5
 
-        for(int i = 0; i<actualNumberStr.length(); i++){
+        for (int i = 0; i < actualNumberStr.length(); i++) {
             char checking = operators[indexOfX].charAt(i);
             char actual = actualNumberStr.charAt(i);
 
-            if(checking != actual) {
-                return ""+actual;
+            if (checking != actual) {
+                return "" + actual;
             }
         }
 
@@ -55,7 +55,7 @@ public class DigitsRegex {
         switch (operator) {
             case "+":
                 return tDigit - sDigit;
-            case"-":
+            case "-":
                 return tDigit + sDigit;
             case "*":
                 return tDigit / sDigit;
@@ -74,8 +74,8 @@ public class DigitsRegex {
         switch (operator) {
             case "+":
                 return tDigit - fDigit;
-            case"-":
-                return fDigit-tDigit;
+            case "-":
+                return fDigit - tDigit;
             case "*":
                 return tDigit / fDigit;
             case "/":
@@ -93,7 +93,7 @@ public class DigitsRegex {
         switch (operator) {
             case "+":
                 return fDigit + sDigit;
-            case"-":
+            case "-":
                 return fDigit - sDigit;
             case "*":
                 return fDigit * sDigit;
@@ -105,8 +105,8 @@ public class DigitsRegex {
     }
 
     public static int findIndexOfX(String[] operators) {
-        for(int i=0; i< operators.length; i++) {
-            if(operators[i].contains("x")) {
+        for (int i = 0; i < operators.length; i++) {
+            if (operators[i].contains("x")) {
                 return i;
             }
         }

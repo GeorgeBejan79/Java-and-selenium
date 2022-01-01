@@ -18,24 +18,24 @@ public class Task2 {
 
         WebElement userNameLink = driver.findElement(By.xpath("//input[@name='ctl00$MainContent$username']"));
         userNameLink.sendKeys("Tester");
-        WebElement passwordLink= driver.findElement(By.xpath("//input[@name='ctl00$MainContent$password']"));
+        WebElement passwordLink = driver.findElement(By.xpath("//input[@name='ctl00$MainContent$password']"));
         passwordLink.sendKeys("test");
-        WebElement loginLink= driver.findElement(By.id("ctl00_MainContent_login_button"));
+        WebElement loginLink = driver.findElement(By.id("ctl00_MainContent_login_button"));
         loginLink.click();
-        WebElement viewAllProducts= driver.findElement(By.xpath("//a[@href='Products.aspx']"));
+        WebElement viewAllProducts = driver.findElement(By.xpath("//a[@href='Products.aspx']"));
         viewAllProducts.click();
-        String expectedAllProducts= driver.getCurrentUrl();
-        String actualAllProducts= "http://secure.smartbearsoftware.com/samples/TestComplete11/WebOrders/Products.aspx";
-        Assert.assertEquals(expectedAllProducts,actualAllProducts);
+        String expectedAllProducts = driver.getCurrentUrl();
+        String actualAllProducts = "http://secure.smartbearsoftware.com/samples/TestComplete11/WebOrders/Products.aspx";
+        Assert.assertEquals(expectedAllProducts, actualAllProducts);
 
-        WebElement headerLink= driver.findElement(By.tagName("h2"));
-        String actualHeader=headerLink.getText();
-        String expectedHeader= "List of Products";
-        Assert.assertEquals(actualHeader,expectedHeader);
+        WebElement headerLink = driver.findElement(By.tagName("h2"));
+        String actualHeader = headerLink.getText();
+        String expectedHeader = "List of Products";
+        Assert.assertEquals(actualHeader, expectedHeader);
 
-        String actualUrl= driver.getCurrentUrl();
+        String actualUrl = driver.getCurrentUrl();
 
-        String expectedUrl= "Products";
+        String expectedUrl = "Products";
         Assert.assertTrue(actualUrl.contains(expectedUrl));
         driver.close();
 

@@ -1,7 +1,11 @@
 package test.java.java_class.Sets;
+
 import java.util.*;
-public class LinkedHashSetPractice {
-    public static void main(String[] args) {
+
+public class LinkedHashSetPractice
+{
+    public static void main(String[] args)
+    {
         LinkedHashSet<String> linkedSet = new LinkedHashSet();
         HashSet<String> set = new HashSet<>();
         set.add("Banana");
@@ -9,14 +13,14 @@ public class LinkedHashSetPractice {
         set.add("Mango");
         set.add("Kiwi");
         set.add(null);
-            System.out.println(set+" no order");
+        System.out.println(set + " no order in HasSet");
 
         linkedSet.add("Banana");
         linkedSet.add("Grapefruit");
         linkedSet.add("Mango");  //// adds elements to the linkedSets
         linkedSet.add("Kiwi");
         linkedSet.add(null);
-            System.out.println(linkedSet+" maintain the insertion order");
+        System.out.println(linkedSet + " LikedSet maintain the insertion order");
 
         TreeSet<String> treeSet = new TreeSet<>();
 
@@ -28,7 +32,7 @@ public class LinkedHashSetPractice {
         treeSet.add("Strawberry");
         //treeSet.add(null);  -->treeSet doesn't allow null values
 
-            System.out.println(treeSet);
-            System.out.println(treeSet.descendingSet());
+        System.out.println(treeSet);
+        System.out.println(treeSet.descendingSet());
     }
 }

@@ -1,4 +1,5 @@
 package api.restassured;
+
 import io.restassured.RestAssured;
 import io.restassured.common.mapper.TypeRef;
 import io.restassured.response.Response;
@@ -9,7 +10,9 @@ import org.testng.annotations.Test;
 import java.util.Map;
 
 import static io.restassured.RestAssured.given;
-public class Deserialization {
+
+public class Deserialization
+{
     @Test
     public void test() {
         RestAssured.baseURI = "https://corona.lmao.ninja/v2/states/Illinois";
@@ -24,5 +27,4 @@ public class Deserialization {
         });
         MatcherAssert.assertThat(parsedResponse.get("state"), Matchers.is("Illinois"));
     }
-
 }

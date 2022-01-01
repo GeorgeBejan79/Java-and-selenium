@@ -15,20 +15,22 @@ import org.testng.annotations.Test;
 import java.io.File;
 import java.io.IOException;
 
-public class ScreenshotIntro {
+public class ScreenshotIntro
+{
     //sniping tool to take screenshots
     WebDriver driver;
 
     @BeforeMethod
-    public void setup() {
+    public void setup()
+    {
 
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
     }
 
     @Test
-    public void screenshotTest() throws IOException {
-
+    public void screenshotTest() throws IOException
+    {
         driver.get("https://google.com");
         File firstScreenshotFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
         String screenshotFolder = "screenshot/";
@@ -37,20 +39,23 @@ public class ScreenshotIntro {
     }
 
     @Test
-    public void georgeTest2() {
+    public void georgeTest2()
+    {
         driver.get("https://etsy.com");
         Assert.fail(); //  fail the test in order to take a screenshot
     }
 
     @AfterMethod
-    public void cleanup(ITestResult result) {
-        if (!result.isSuccess()) { // if the test not successful
+    public void cleanup(ITestResult result)
+    {
+        if (!result.isSuccess())
+        { // if the test not successful
             takeScreenshot(result.getName());   // take a screenshot
         }
         driver.quit();
     }
-
-    public void takeScreenshot(String screenshotName) {
+    public void takeScreenshot(String screenshotName)
+    {
         //takes screenshot
         File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
         String screenShotDirectory = "screenshot/desktop";

@@ -18,7 +18,7 @@ public class HwEightTskThree {
             System.out.println("Please insert a string");
         String str = input.next();
         int indx1 = str.indexOf('d');       //finds first index of d
-        int indx2 = str.indexOf('d') + 2;   //finds first index of d
+        int indx2 = str.indexOf('d') + 2;   //finds second index of d
 
         char ch = str.charAt(indx1);
         char ch1 = str.charAt(indx2);

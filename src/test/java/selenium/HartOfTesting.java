@@ -7,11 +7,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-
-public class HartOfTesting {
+public class HartOfTesting
+{
     @Test
-    public void test1(){
-        System.setProperty("webdriver.chrome.driver","resources/chromedriver.exe");
+    public void test1()
+    {
+        System.setProperty("webdriver.chrome.driver", "resources/chromedriver.exe");
         //instantiate chrome browser
         WebDriver driver = new ChromeDriver();
         driver.get("http://the-internet.herokuapp.com/");
@@ -20,8 +21,6 @@ public class HartOfTesting {
         WebElement header = driver.findElement(By.xpath("//h3[contains(text(),'Horizontal Slider')]"));
         String headerText = header.getText();
         String expectedHeaderText = "Horizontal Slider";
-        Assert.assertEquals(expectedHeaderText,headerText);
-
-
+        Assert.assertEquals(expectedHeaderText, headerText);
     }
 }

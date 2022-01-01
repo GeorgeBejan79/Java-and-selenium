@@ -15,7 +15,7 @@ public class SoftAssertion {
     @Test
     public void test2() {
         System.out.println("code bf soft assertion");
-        SoftAssert softAssert = new SoftAssert();  //default constructor  doesn't passs any parameter
+        SoftAssert softAssert = new SoftAssert();  //default constructor  doesn't pass any parameter
         softAssert.assertEquals(2, 2);
         softAssert.assertEquals("Ashely", "john");
         System.out.println("code after soft assertion");

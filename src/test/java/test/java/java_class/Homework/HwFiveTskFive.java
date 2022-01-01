@@ -19,15 +19,17 @@ public class HwFiveTskFive {
         The output is:
         ell* */
         Scanner input = new Scanner(System.in);
-            System.out.println("Please enter a word: ");
+        System.out.println("Please enter a word: ");
         String str = input.next();
         int strLength = str.length();
-        String changeStr = str.substring(1, strLength-1);
+        String changeStr = str.substring(1, strLength - 1);
 
-        if(strLength < 3){
+        if (strLength < 3)
+        {
             System.out.println(str);
-
-        }else{
+        }
+        else
+        {
             System.out.println(changeStr);
         }
     }

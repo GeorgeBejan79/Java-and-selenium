@@ -13,19 +13,22 @@ import org.testng.annotations.Test;
 
 import java.util.Set;
 
-public class WindowsIntro {
+public class WindowsIntro
+{
     WebDriver driver;
     Actions actions;
 
     @BeforeMethod
-    public void setup() {
+    public void setup()
+    {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         actions = new Actions(driver);
     }
 
     @Test
-    public void test1() throws InterruptedException {
+    public void test1() throws InterruptedException
+    {
         driver.get("https://google.com");
         //String currentWindowId=driver.getWindowHandle();
         WebElement searchBox = driver.findElement(By.name("q"));

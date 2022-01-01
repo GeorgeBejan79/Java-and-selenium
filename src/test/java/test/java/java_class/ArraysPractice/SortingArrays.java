@@ -1,10 +1,12 @@
 package test.java.java_class.ArraysPractice;
+
 import java.util.Arrays;
+
 public class SortingArrays {
     public static void main(String[] args) {
         int [] numbers ={10, 6, 14, 8, 45, 34};
 
-        for (int i = 0; i < numbers.length; i++) {
+       for (int i = 0; i < numbers.length; i++) {
 
             for (int j = i + 1; j < numbers.length ; j++) { //Interview question
 
@@ -15,6 +17,11 @@ public class SortingArrays {
                     numbers[j] = temp;
                 }
             }
-        }System.out.println(Arrays.toString(numbers));
+        }
+
+//        Arrays.sort(numbers);
+//        System.out.println(numbers[i]);
+        System.out.println(Arrays.toString(numbers));
+
     }
 }

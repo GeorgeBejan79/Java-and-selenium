@@ -15,19 +15,19 @@ Output:
 “aaacess”
 ...
 “aaaaaaa”*/
-        Scanner input =new Scanner(System.in);
-            System.out.println("Please provide a string: ");
-        String str =input.next();
-        String st1="";
-        int lastIndex=str.length()-1;
+        Scanner input = new Scanner(System.in);
+        System.out.println("Please provide a string: ");
+        String str = input.next();
+        String st1 = "";
+        int lastIndex = str.length() - 1;
         int num = 0;
-        int firstIndex=0;
-        while(num<=lastIndex){
+        int firstIndex = 0;
+        while (num <= lastIndex) {
 
-            firstIndex+=1;
+            firstIndex += 1;
             st1 = st1.concat("a");
-                System.out.print(st1);
-                System.out.println(str.substring(firstIndex));
+            System.out.print(st1);
+            System.out.println(str.substring(firstIndex));
             num++;
         }
     }

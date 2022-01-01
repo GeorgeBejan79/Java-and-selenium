@@ -1,5 +1,7 @@
 package test.java.java_class.Sets.StringExample;
+
 import java.util.Scanner;
+
 public class StringPractice {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -7,14 +9,14 @@ public class StringPractice {
         String str = input.nextLine();
         //System.out.println("Please enter second string: ");
         //String b = input.nextLine();
-        int size=str.length();
-        String strReturn="";
-        String str1="";
+        int size = str.length();
+        String strReturn = "";
+        String str1 = "";
         String str2 = str.substring(str.length() - 2, str.length());
-        if(size==1){
-            str1+=str;
+        if (size == 1) {
+            str1 += str;
             System.out.println(str1);
-        }else {
+        } else {
             str1 = str.substring(0, 2);
             System.out.println(str1);
             if (size == 2) {
@@ -29,12 +31,11 @@ public class StringPractice {
         }
 
 
-
         System.out.println(strReturn);
 
-        }
+    }
 
-            //System.out.println(str1);
+    //System.out.println(str1);
         /*String str1=str.substring(0,2);
         int size=str.length()-1;
         String str2=str.substring(str.length()-2,str.length());
@@ -54,7 +55,7 @@ public class StringPractice {
         System.out.println(frontAgain);
         }*/
 
-        }
+}
 
 
 
